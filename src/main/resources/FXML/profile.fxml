@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffffe6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tasktracking.controller.ProfileController">
+   <children>
+      <Label layoutX="480.0" layoutY="37.0" text="ผู้จัดทำ">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="323.0" fitWidth="337.0" layoutX="154.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/S__146718738.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="514.0" layoutY="208.0" text="สิปปกร วิเศษสุทธิ์">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="37.0" layoutY="544.0" mnemonicParsing="false" onAction="#handleUseBackButton" styleClass="button5" stylesheets="@css/style.css" text="Back" />
+      <Label layoutX="467.0" layoutY="208.0" text="ชื่อ :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="273.0" text="รหัสนิสิต :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="564.0" layoutY="273.0" text="6110450421">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="334.0" text="หมู่ :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="514.0" layoutY="334.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="234.0" fitWidth="392.0" layoutX="402.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/6-64289_free-icons-png-frame-border-png-hd.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

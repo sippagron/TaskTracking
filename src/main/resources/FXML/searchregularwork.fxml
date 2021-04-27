@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffffe6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tasktracking.controller.SearchRegularController">
+   <children>
+
+      <Label layoutX="342.0" layoutY="48.0" text="Search RegularWork">
+         <font>
+            <Font name="Bernard MT Condensed" size="40.0" />
+         </font>
+      </Label>
+
+      <Button layoutX="60.0" layoutY="535.0" mnemonicParsing="false" onAction="#handleUseBackButton" prefHeight="30.0" prefWidth="57.0" styleClass="button2" stylesheets="@css/style.css" text="Back" />
+      <TableView fx:id="table" layoutX="40.0" layoutY="126.0" prefHeight="384.0" prefWidth="921.0">
+        <columns>
+          <TableColumn fx:id="JobName" onEditCommit="#handleOnEditChanges" prefWidth="177.0" text="JobName" />
+          <TableColumn fx:id="Date" prefWidth="119.0" style="-fx-alignment: CENTER;" text="Date" />
+            <TableColumn fx:id="TimeStart" prefWidth="100.0" style="-fx-alignment: CENTER;" text="TimeStart" />
+            <TableColumn fx:id="TimeEnd" prefWidth="100.0" style="-fx-alignment: CENTER;" text="TimeEnd" />
+            <TableColumn fx:id="Priority" prefWidth="103.0" style="-fx-alignment: CENTER;" text="Priority" />
+            <TableColumn fx:id="Category" prefWidth="118.0" style="-fx-alignment: CENTER;" text="Category" />
+            <TableColumn fx:id="Status" prefWidth="100.0" sortable="false" style="-fx-alignment: CENTER;" text="Status" />
+            <TableColumn fx:id="Edit" prefWidth="103.0" sortable="false" style="-fx-alignment: CENTER;" text="Edit" />
+        </columns>
+      </TableView>
+      <Button layoutX="873.0" layoutY="535.0" mnemonicParsing="false" onAction="#handleRefreshButton" prefHeight="31.0" prefWidth="68.0" styleClass="button2" stylesheets="@css/style.css" text="refresh" />
+
+   </children>
+</AnchorPane>

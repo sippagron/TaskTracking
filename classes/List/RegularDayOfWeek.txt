@@ -1,0 +1,12 @@
+1179,2019-03-01,true,true,false,false,false,false
+3358,2019-03-14,false,false,true,true,false,false
+4365,2021-03-12,false,false,false,false,false,false
+3040,2021-03-30,false,false,false,false,false,false
+8351,2021-03-14,false,false,false,false,false,false
+3588,2021-03-10,false,false,false,false,false,false
+4,2021-03-13,false,false,false,false,false,false
+1179,2019-03-01,true,true,false,false,false,false
+3358,2019-03-14,false,false,true,true,false,false
+4365,2021-03-11,false,false,false,false,false,false
+3040,2022-03-31,false,false,false,false,false,false
+8351,2025-03-13,false,false,false,false,false,false
